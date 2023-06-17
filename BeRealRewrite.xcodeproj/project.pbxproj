@@ -7,18 +7,109 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		403821192A2047D300DD6876 /* Refresh_Tokens.txt in Resources */ = {isa = PBXBuildFile; fileRef = 403821182A2047D300DD6876 /* Refresh_Tokens.txt */; };
+		404651622A39387B0062D944 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407F6C2A2A158A0E00981EE2 /* WebP.framework */; };
+		404651632A3938FE0062D944 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40A45D0F2A03777A000B0A16 /* Model.xcdatamodeld */; };
+		404651722A3964FB0062D944 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404651702A3964BA0062D944 /* Model.swift */; };
+		407993CB2A0B041E009A8596 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407993CA2A0B041E009A8596 /* UserView.swift */; };
+		407993D22A0BFE5A009A8596 /* FeedItemCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407993D12A0BFE5A009A8596 /* FeedItemCommentView.swift */; };
+		407993D52A0C0EB5009A8596 /* FriendRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407993D42A0C0EB5009A8596 /* FriendRequests.swift */; };
+		407F6C1E2A15811100981EE2 /* CustomCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407F6C1D2A15811100981EE2 /* CustomCameraView.swift */; };
+		407F6C2C2A158A1B00981EE2 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407F6C2A2A158A0E00981EE2 /* WebP.framework */; };
+		407F6C2D2A158A1B00981EE2 /* WebP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 407F6C2A2A158A0E00981EE2 /* WebP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		407F6C312A1697D900981EE2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407F6C302A1697D900981EE2 /* SettingsView.swift */; };
+		408C0FA42A0C54A5000206A9 /* NewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C0FA32A0C54A5000206A9 /* NewPost.swift */; };
+		40A381172A0AE11C0073FD3C /* FeedItemCommentsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A381162A0AE11C0073FD3C /* FeedItemCommentsItem.swift */; };
 		40A45CFF2A036CCC000B0A16 /* BeRealRewriteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A45CFE2A036CCC000B0A16 /* BeRealRewriteApp.swift */; };
 		40A45D012A036CCC000B0A16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A45D002A036CCC000B0A16 /* ContentView.swift */; };
 		40A45D032A036CD1000B0A16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A45D022A036CD1000B0A16 /* Assets.xcassets */; };
 		40A45D062A036CD1000B0A16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A45D052A036CD1000B0A16 /* Preview Assets.xcassets */; };
+		40A45D0D2A036D07000B0A16 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A45D0C2A036D06000B0A16 /* Model.swift */; };
+		40A45D112A03777A000B0A16 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40A45D0F2A03777A000B0A16 /* Model.xcdatamodeld */; };
+		40BDDDD62A37E4A500491428 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BDDDD52A37E4A500491428 /* WidgetKit.framework */; };
+		40BDDDD82A37E4A500491428 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BDDDD72A37E4A500491428 /* SwiftUI.framework */; };
+		40BDDDDB2A37E4A500491428 /* WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDDDDA2A37E4A500491428 /* WidgetBundle.swift */; };
+		40BDDDDF2A37E4A500491428 /* Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BDDDDE2A37E4A500491428 /* Widget.swift */; };
+		40BDDDE22A37E4A700491428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40BDDDE12A37E4A700491428 /* Assets.xcassets */; };
+		40BDDDE42A37E4A700491428 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 40BDDDE02A37E4A500491428 /* Widget.intentdefinition */; };
+		40BDDDE52A37E4A700491428 /* Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 40BDDDE02A37E4A500491428 /* Widget.intentdefinition */; };
+		40BDDDE82A37E4A700491428 /* WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 40BDDDD32A37E4A500491428 /* WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		40C3A7A82A047BFF001B7980 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3A7A72A047BFF001B7980 /* Home.swift */; };
+		40C3A7AB2A047C82001B7980 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3A7AA2A047C82001B7980 /* Login.swift */; };
+		40C3A7AE2A049E22001B7980 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3A7AD2A049E22001B7980 /* Feed.swift */; };
+		40C3A7B02A049EB4001B7980 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3A7AF2A049EB4001B7980 /* FeedItem.swift */; };
+		40C3A7B22A05A01A001B7980 /* FeedItemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C3A7B12A05A01A001B7980 /* FeedItemImage.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		40BDDDE62A37E4A700491428 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40A45CF32A036CCB000B0A16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BDDDD22A37E4A500491428;
+			remoteInfo = WidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		407F6C2E2A158A1B00981EE2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				407F6C2D2A158A1B00981EE2 /* WebP.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDDDE92A37E4A800491428 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				40BDDDE82A37E4A700491428 /* WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		403821182A2047D300DD6876 /* Refresh_Tokens.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Refresh_Tokens.txt; sourceTree = "<group>"; };
+		404651702A3964BA0062D944 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		407993CA2A0B041E009A8596 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		407993D12A0BFE5A009A8596 /* FeedItemCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemCommentView.swift; sourceTree = "<group>"; };
+		407993D42A0C0EB5009A8596 /* FriendRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequests.swift; sourceTree = "<group>"; };
+		407F6C1D2A15811100981EE2 /* CustomCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraView.swift; sourceTree = "<group>"; };
+		407F6C2A2A158A0E00981EE2 /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
+		407F6C302A1697D900981EE2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		408C0FA32A0C54A5000206A9 /* NewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPost.swift; sourceTree = "<group>"; };
+		408C0FA82A0C7352000206A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		40A381162A0AE11C0073FD3C /* FeedItemCommentsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemCommentsItem.swift; sourceTree = "<group>"; };
 		40A45CFB2A036CCC000B0A16 /* BeRealRewrite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeRealRewrite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A45CFE2A036CCC000B0A16 /* BeRealRewriteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeRealRewriteApp.swift; sourceTree = "<group>"; };
 		40A45D002A036CCC000B0A16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40A45D022A036CD1000B0A16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40A45D052A036CD1000B0A16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40A45D0C2A036D06000B0A16 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		40A45D102A03777A000B0A16 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		40BDDDD32A37E4A500491428 /* WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BDDDD52A37E4A500491428 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		40BDDDD72A37E4A500491428 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		40BDDDDA2A37E4A500491428 /* WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetBundle.swift; sourceTree = "<group>"; };
+		40BDDDDE2A37E4A500491428 /* Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Widget.swift; sourceTree = "<group>"; };
+		40BDDDE02A37E4A500491428 /* Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Widget.intentdefinition; sourceTree = "<group>"; };
+		40BDDDE12A37E4A700491428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40BDDDE32A37E4A700491428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BDDDEE2A38032600491428 /* BeRealRewrite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeRealRewrite.entitlements; sourceTree = "<group>"; };
+		40BDDDEF2A38039000491428 /* WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetExtension.entitlements; sourceTree = "<group>"; };
+		40C3A7A72A047BFF001B7980 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		40C3A7AA2A047C82001B7980 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		40C3A7AD2A049E22001B7980 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		40C3A7AF2A049EB4001B7980 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		40C3A7B12A05A01A001B7980 /* FeedItemImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,16 +117,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407F6C2C2A158A1B00981EE2 /* WebP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDDDD02A37E4A500491428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404651622A39387B0062D944 /* WebP.framework in Frameworks */,
+				40BDDDD82A37E4A500491428 /* SwiftUI.framework in Frameworks */,
+				40BDDDD62A37E4A500491428 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4046516F2A3964AF0062D944 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				404651702A3964BA0062D944 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		407993C92A0B040A009A8596 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				407993CA2A0B041E009A8596 /* UserView.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		407993CE2A0B2E36009A8596 /* FeedItem */ = {
+			isa = PBXGroup;
+			children = (
+				40A381162A0AE11C0073FD3C /* FeedItemCommentsItem.swift */,
+				40C3A7B12A05A01A001B7980 /* FeedItemImage.swift */,
+				40C3A7AF2A049EB4001B7980 /* FeedItem.swift */,
+				407993D12A0BFE5A009A8596 /* FeedItemCommentView.swift */,
+			);
+			path = FeedItem;
+			sourceTree = "<group>";
+		};
+		407993D32A0C0EA6009A8596 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				407993D42A0C0EB5009A8596 /* FriendRequests.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		407F6C1C2A1580F600981EE2 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				407F6C1D2A15811100981EE2 /* CustomCameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		407F6C2F2A1697BC00981EE2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				407F6C302A1697D900981EE2 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		408C0FA22A0C53CC000206A9 /* NewPost */ = {
+			isa = PBXGroup;
+			children = (
+				407F6C1C2A1580F600981EE2 /* Camera */,
+				408C0FA32A0C54A5000206A9 /* NewPost.swift */,
+			);
+			path = NewPost;
+			sourceTree = "<group>";
+		};
 		40A45CF22A036CCB000B0A16 = {
 			isa = PBXGroup;
 			children = (
+				40BDDDEF2A38039000491428 /* WidgetExtension.entitlements */,
+				403821182A2047D300DD6876 /* Refresh_Tokens.txt */,
+				407F6C2A2A158A0E00981EE2 /* WebP.framework */,
 				40A45CFD2A036CCC000B0A16 /* BeRealRewrite */,
+				40BDDDD92A37E4A500491428 /* Widget */,
+				40BDDDD42A37E4A500491428 /* Frameworks */,
 				40A45CFC2A036CCC000B0A16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				40A45CFB2A036CCC000B0A16 /* BeRealRewrite.app */,
+				40BDDDD32A37E4A500491428 /* WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +219,11 @@
 		40A45CFD2A036CCC000B0A16 /* BeRealRewrite */ = {
 			isa = PBXGroup;
 			children = (
+				40BDDDEE2A38032600491428 /* BeRealRewrite.entitlements */,
+				40A45D0E2A036D1A000B0A16 /* Model */,
+				40C3A7A52A047BC8001B7980 /* Views */,
+				408C0FA82A0C7352000206A9 /* Info.plist */,
 				40A45CFE2A036CCC000B0A16 /* BeRealRewriteApp.swift */,
-				40A45D002A036CCC000B0A16 /* ContentView.swift */,
 				40A45D022A036CD1000B0A16 /* Assets.xcassets */,
 				40A45D042A036CD1000B0A16 /* Preview Content */,
 			);
@@ -67,6 +238,77 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		40A45D0E2A036D1A000B0A16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40A45D0C2A036D06000B0A16 /* Model.swift */,
+				40A45D0F2A03777A000B0A16 /* Model.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40BDDDD42A37E4A500491428 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40BDDDD52A37E4A500491428 /* WidgetKit.framework */,
+				40BDDDD72A37E4A500491428 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40BDDDD92A37E4A500491428 /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				4046516F2A3964AF0062D944 /* Model */,
+				40BDDDDA2A37E4A500491428 /* WidgetBundle.swift */,
+				40BDDDDE2A37E4A500491428 /* Widget.swift */,
+				40BDDDE02A37E4A500491428 /* Widget.intentdefinition */,
+				40BDDDE12A37E4A700491428 /* Assets.xcassets */,
+				40BDDDE32A37E4A700491428 /* Info.plist */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		40C3A7A52A047BC8001B7980 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				407F6C2F2A1697BC00981EE2 /* Settings */,
+				408C0FA22A0C53CC000206A9 /* NewPost */,
+				407993D32A0C0EA6009A8596 /* Friends */,
+				407993C92A0B040A009A8596 /* User */,
+				40C3A7AC2A049E0D001B7980 /* Feed */,
+				40C3A7A92A047C06001B7980 /* Login */,
+				40C3A7A62A047BF3001B7980 /* Home */,
+				40A45D002A036CCC000B0A16 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40C3A7A62A047BF3001B7980 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				40C3A7A72A047BFF001B7980 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		40C3A7A92A047C06001B7980 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				40C3A7AA2A047C82001B7980 /* Login.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		40C3A7AC2A049E0D001B7980 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				407993CE2A0B2E36009A8596 /* FeedItem */,
+				40C3A7AD2A049E22001B7980 /* Feed.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +319,37 @@
 				40A45CF72A036CCC000B0A16 /* Sources */,
 				40A45CF82A036CCC000B0A16 /* Frameworks */,
 				40A45CF92A036CCC000B0A16 /* Resources */,
+				407F6C2E2A158A1B00981EE2 /* Embed Frameworks */,
+				40BDDDE92A37E4A800491428 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BDDDE72A37E4A700491428 /* PBXTargetDependency */,
+			);
+			name = BeRealRewrite;
+			packageProductDependencies = (
+			);
+			productName = BeRealRewrite;
+			productReference = 40A45CFB2A036CCC000B0A16 /* BeRealRewrite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40BDDDD22A37E4A500491428 /* WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BDDDEC2A37E4A800491428 /* Build configuration list for PBXNativeTarget "WidgetExtension" */;
+			buildPhases = (
+				40BDDDCF2A37E4A500491428 /* Sources */,
+				40BDDDD02A37E4A500491428 /* Frameworks */,
+				40BDDDD12A37E4A500491428 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BeRealRewrite;
-			productName = BeRealRewrite;
-			productReference = 40A45CFB2A036CCC000B0A16 /* BeRealRewrite.app */;
-			productType = "com.apple.product-type.application";
+			name = WidgetExtension;
+			productName = WidgetExtension;
+			productReference = 40BDDDD32A37E4A500491428 /* WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +364,9 @@
 					40A45CFA2A036CCC000B0A16 = {
 						CreatedOnToolsVersion = 14.2;
 					};
+					40BDDDD22A37E4A500491428 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = 40A45CF62A036CCB000B0A16 /* Build configuration list for PBXProject "BeRealRewrite" */;
@@ -111,11 +378,14 @@
 				Base,
 			);
 			mainGroup = 40A45CF22A036CCB000B0A16;
+			packageReferences = (
+			);
 			productRefGroup = 40A45CFC2A036CCC000B0A16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				40A45CFA2A036CCC000B0A16 /* BeRealRewrite */,
+				40BDDDD22A37E4A500491428 /* WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +397,15 @@
 			files = (
 				40A45D062A036CD1000B0A16 /* Preview Assets.xcassets in Resources */,
 				40A45D032A036CD1000B0A16 /* Assets.xcassets in Resources */,
+				403821192A2047D300DD6876 /* Refresh_Tokens.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDDDD12A37E4A500491428 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BDDDE22A37E4A700491428 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +416,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407993CB2A0B041E009A8596 /* UserView.swift in Sources */,
 				40A45D012A036CCC000B0A16 /* ContentView.swift in Sources */,
+				40A45D0D2A036D07000B0A16 /* Model.swift in Sources */,
+				40C3A7A82A047BFF001B7980 /* Home.swift in Sources */,
+				408C0FA42A0C54A5000206A9 /* NewPost.swift in Sources */,
+				40C3A7B22A05A01A001B7980 /* FeedItemImage.swift in Sources */,
+				407993D22A0BFE5A009A8596 /* FeedItemCommentView.swift in Sources */,
+				407F6C1E2A15811100981EE2 /* CustomCameraView.swift in Sources */,
+				40C3A7AE2A049E22001B7980 /* Feed.swift in Sources */,
+				407F6C312A1697D900981EE2 /* SettingsView.swift in Sources */,
+				40BDDDE52A37E4A700491428 /* Widget.intentdefinition in Sources */,
+				407993D52A0C0EB5009A8596 /* FriendRequests.swift in Sources */,
+				40C3A7B02A049EB4001B7980 /* FeedItem.swift in Sources */,
+				40C3A7AB2A047C82001B7980 /* Login.swift in Sources */,
 				40A45CFF2A036CCC000B0A16 /* BeRealRewriteApp.swift in Sources */,
+				40A381172A0AE11C0073FD3C /* FeedItemCommentsItem.swift in Sources */,
+				40A45D112A03777A000B0A16 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BDDDCF2A37E4A500491428 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BDDDE42A37E4A700491428 /* Widget.intentdefinition in Sources */,
+				40BDDDDB2A37E4A500491428 /* WidgetBundle.swift in Sources */,
+				404651722A3964FB0062D944 /* Model.swift in Sources */,
+				40BDDDDF2A37E4A500491428 /* Widget.swift in Sources */,
+				404651632A3938FE0062D944 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40BDDDE72A37E4A700491428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BDDDD22A37E4A500491428 /* WidgetExtension */;
+			targetProxy = 40BDDDE62A37E4A700491428 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		40A45D072A036CD1000B0A16 /* Debug */ = {
@@ -195,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +563,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -262,25 +576,37 @@
 		40A45D0A2A036CD1000B0A16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeRealRewrite/BeRealRewrite.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BeRealRewrite/Preview Content\"";
-				DEVELOPMENT_TEAM = 8AK8X62ARR;
+				DEVELOPMENT_TEAM = 5WHK38RYF3;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeRealRewrite/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To Take Photos and Video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To Record Audio With Video";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save BeReals to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.luketheduke.fortheLord.BeRealRewrite;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftL.bereal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -291,26 +617,106 @@
 		40A45D0B2A036CD1000B0A16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BeRealRewrite/BeRealRewrite.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BeRealRewrite/Preview Content\"";
-				DEVELOPMENT_TEAM = 8AK8X62ARR;
+				DEVELOPMENT_TEAM = 5WHK38RYF3;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeRealRewrite/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To Take Photos and Video";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "To Record Audio With Video";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save BeReals to your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.luketheduke.fortheLord.BeRealRewrite;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftL.bereal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40BDDDEA2A37E4A800491428 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WHK38RYF3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = TARGET_IS_EXTENSION;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftL.bereal.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40BDDDEB2A37E4A800491428 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5WHK38RYF3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = TARGET_IS_EXTENSION;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftL.bereal.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -338,7 +744,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		40BDDDEC2A37E4A800491428 /* Build configuration list for PBXNativeTarget "WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BDDDEA2A37E4A800491428 /* Debug */,
+				40BDDDEB2A37E4A800491428 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40A45D0F2A03777A000B0A16 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40A45D102A03777A000B0A16 /* Model.xcdatamodel */,
+			);
+			currentVersion = 40A45D102A03777A000B0A16 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 40A45CF32A036CCB000B0A16 /* Project object */;
 }

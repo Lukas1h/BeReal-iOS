@@ -1,0 +1,4 @@
+framework module WebP {
+  header "WebP-Swift.h"
+  requires objc
+}
